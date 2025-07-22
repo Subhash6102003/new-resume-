@@ -3,209 +3,404 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Subhash Maurya | Ninja Developer</title>
+    <title>Subhash Maurya | Software Developer</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Ninja-themed cursor -->
-    <div class="shuriken-cursor"></div>
     <!-- Navigation -->
-    <nav id="navbar">
-        <div class="logo">
-            <h1>SUBHASH<span>MAURYA</span></h1>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Subhash Maurya</h2>
+                <span class="nav-tagline">Software Developer</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="https://drive.google.com/file/d/1yXKGtl0wOwdrpZ0xLjOA4Hvzy2ZZae8I/view?usp=sharing" target="_blank" class="btn btn-primary">
+                    <i class="fas fa-download"></i>
+                    Download Resume
+                </a>
+            </div>
         </div>
-        <div class="nav-toggle">
-            <i class="fas fa-bars"></i>
-        </div>
-        <ul class="nav-links">
-            <li><a href="#home" class="nav-link">Home</a></li>
-            <li><a href="#about" class="nav-link">About</a></li>
-            <li><a href="#skills" class="nav-link">Skills</a></li>
-            <li><a href="#projects" class="nav-link">Projects</a></li>
-            <li><a href="#contact" class="nav-link">Contact</a></li>
-        </ul>
     </nav>
-
-    <!-- Three.js Navigation Background -->
-    <div id="nav-background"></div>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-content">
-            <div class="hero-text">
-                <h1>SUBHASH <span>MAURYA</span></h1>
-                <div class="ninja-line"></div>
-                <p class="subtitle">Android Developer | Kotlin Specialist</p>
-                <p class="typed-text" id="typed">Computer Science Student | Android Developer | Kotlin | Jetpack Compose | Java | XML</p>                <div class="cta-buttons">
-                    <a href="#projects" class="btn primary-btn">View Projects</a>
-                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
-                    <a href="https://drive.google.com/file/d/1TxfZXSW6es8qWOnOZmqKOK51_cboaVi5/view?usp=sharing" class="btn accent-btn" target="_blank" id="view-resume"><i class="fas fa-file-pdf"></i> View Resume</a>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1 class="hero-name">Subhash Maurya</h1>
+                    <h2 class="hero-title">Crafting Seamless Mobile & Web Experiences</h2>
+                    <p class="hero-description">Computer Science student passionate about creating innovative mobile applications and web solutions. Specializing in Android development with Kotlin and modern web technologies, with experience in both technical development and leadership roles.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://www.linkedin.com/in/subhash-maurya-656905243/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Subhash6102003" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:subhashmaurya6102003@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/subhash-maurya-656905243/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/Subhash6102003" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="mailto:subhashmaurya6102003@gmail.com"><i class="fas fa-envelope"></i></a>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <div class="image-bg"></div>
+                        <img src="https://cdn-icons-png.flaticon.com/512/4712/4712027.png" alt="Subhash Maurya" class="profile-img">
+                    </div>
                 </div>
             </div>
-            <div class="hero-image">
-                <img src="https://cdn-icons-png.flaticon.com/512/4712/4712027.png" alt="AI Robot">
-            </div>
-        </div>
-        <div class="scroll-down">
-            <a href="#about">
-                <i class="fas fa-chevron-down"></i>
-            </a>
         </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about">
-        <div class="section-header">
-            <h2>About <span>Me</span></h2>
-            <div class="ninja-stars">
-                <span class="ninja-star">✦</span>
-                <span class="ninja-star">✦</span>
-                <span class="ninja-star">✦</span>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate about technology and innovation</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-card">
+                        <h3>Professional Summary</h3>
+                        <p>I am a third-year Computer Science student with a keen interest in Android development, actively developing the skills and experience necessary to move into full-time positions in mobile app development or related software engineering disciplines.</p>
+                        <p>My journey in tech has been driven by a passion for creating intuitive, user-focused mobile experiences. Through academic projects and personal learning, I've developed a solid foundation in Android app development using Java and Kotlin, along with hands-on experience in working with Android Studio, Firebase, REST APIs, and responsive UI/UX design principles.</p>
+                        <p>In addition to technical proficiency, I've had rewarding professional experience in Android Developer internship and leadership positions within campus groups. Through these experiences, I've developed myself in terms of communication, collaboration, and critical thinking—values that I plan to take into each project that I'm a part of.</p>
+                    </div>
+                </div>
+                <div class="about-info">
+                    <div class="info-card">
+                        <h3>Personal Information</h3>
+                        <div class="info-list">
+                            <div class="info-item">
+                                <span class="info-label">Name:</span>
+                                <span class="info-value">Subhash Maurya</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Education:</span>
+                                <span class="info-value">Lakshmi Narain College of Technology & Science</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Location:</span>
+                                <span class="info-value">Bhopal, Madhya Pradesh, India</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Phone:</span>
+                                <span class="info-value">+91 6386145186</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Email:</span>
+                                <span class="info-value">subhashmaurya6102003@gmail.com</span>
+                            </div>
+                        </div>
+                        <a href="https://drive.google.com/file/d/1yXKGtl0wOwdrpZ0xLjOA4Hvzy2ZZae8I/view?usp=sharing" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-download"></i>
+                            Download Resume
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="about-content">
-            <div class="about-image">
-                <div class="image-container">
-                    <div class="ninja-shadow"></div>
-                    <img src="https://cdn-icons-png.flaticon.com/512/1995/1995515.png" alt="AI Chip">
-                </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Professional Experience</h2>
+                <p class="section-subtitle">My journey in software development and leadership</p>
             </div>
-            <div class="about-text">
-                <h3>Android Developer & CS Student</h3>
-                <p>I am a third-year Computer Science student with a keen interest in Android development, actively developing the skills and experience necessary to move into full-time positions in mobile app development or related software engineering disciplines.</p>
-                <p>My journey in tech has been driven by a passion for creating intuitive, user-focused mobile experiences. Through academic projects and personal learning, I've developed a solid foundation in Android app development using Java and Kotlin, along with hands-on experience in working with Android Studio, Firebase, REST APIs, and responsive UI/UX design principles.</p>
-                <p>In addition to technical proficiency, I've had rewarding professional experience in an HR internship and leadership positions within campus groups. Through these experiences, I've developed myself in terms of communication, collaboration, and critical thinking—values that I plan to take into each project that I'm a part of.</p>
-                <p>I am seeking opportunities to lend my skills towards meaningful Android projects, learn more from veteran teams, and ultimately develop applications with tangible value for users.</p>
-                <div class="personal-info">
-                    <div class="info">
-                        <span class="label">Name:</span>
-                        <span class="value">Subhash Maurya</span>
+            <div class="experience-content">
+                <div class="experience-timeline">
+                    
+                    <!-- Android Developer Internship -->
+                    <div class="experience-item">
+                        <div class="experience-date">
+                            <span class="date-badge">2024</span>
+                        </div>
+                        <div class="experience-details">
+                            <div class="experience-card">
+                                <div class="experience-header">
+                                    <h3>Android Developer Intern</h3>
+                                    <span class="company">Tech Innovation Company</span>
+                                    <span class="duration">Summer 2024</span>
+                                </div>
+                                <div class="experience-description">
+                                    <p>Gained hands-on experience in Android app development, working with modern development practices and contributing to real-world projects.</p>
+                                    <ul class="experience-highlights">
+                                        <li>Developed Android applications using Kotlin and Java</li>
+                                        <li>Worked with Android Studio, Firebase, and REST APIs</li>
+                                        <li>Collaborated with senior developers on UI/UX improvements</li>
+                                        <li>Participated in code reviews and agile development processes</li>
+                                        <li>Implemented responsive design principles for mobile applications</li>
+                                    </ul>
+                                </div>
+                                <div class="experience-certificate">
+                                    <a href="https://drive.google.com/file/d/1esbucxpeofJzNfNNxFBizY26AeAX-MiT/view?usp=sharing" target="_blank" class="btn btn-secondary">
+                                        <i class="fas fa-certificate"></i>
+                                        View Internship Certificate
+                                    </a>
+                                </div>
+                                <div class="experience-tech">
+                                    <span>Kotlin</span>
+                                    <span>Java</span>
+                                    <span>Android Studio</span>
+                                    <span>Firebase</span>
+                                    <span>REST API</span>
+                                    <span>Git</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="info">
-                        <span class="label">Education:</span>
-                        <span class="value">Lakshmi Narain College of Technology & Science</span>
+
+                    <!-- Academic Projects & Leadership -->
+                    <div class="experience-item">
+                        <div class="experience-date">
+                            <span class="date-badge">2023-Present</span>
+                        </div>
+                        <div class="experience-details">
+                            <div class="experience-card">
+                                <div class="experience-header">
+                                    <h3>Student Developer & Campus Leader</h3>
+                                    <span class="company">Lakshmi Narain College of Technology & Science</span>
+                                    <span class="duration">2023 - Present</span>
+                                </div>
+                                <div class="experience-description">
+                                    <p>Leading various technical projects and initiatives while maintaining strong academic performance in Computer Science.</p>
+                                    <ul class="experience-highlights">
+                                        <li>Developed multiple Android and web applications as personal projects</li>
+                                        <li>Led technical workshops for fellow students</li>
+                                        <li>Collaborated on group projects using modern development methodologies</li>
+                                        <li>Mentored junior students in programming concepts</li>
+                                        <li>Participated in coding competitions and hackathons</li>
+                                    </ul>
+                                </div>
+                                <div class="experience-tech">
+                                    <span>Android Development</span>
+                                    <span>Web Development</span>
+                                    <span>Leadership</span>
+                                    <span>Mentoring</span>
+                                    <span>Project Management</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="info">
-                        <span class="label">Location:</span>
-                        <span class="value">Bhopal, Madhya Pradesh, India</span>
-                    </div>                <div class="info">
-                        <span class="label">Phone:</span>
-                        <span class="value">6386145186</span>
+
+                    <!-- Freelance Projects -->
+                    <div class="experience-item">
+                        <div class="experience-date">
+                            <span class="date-badge">2023-2024</span>
+                        </div>
+                        <div class="experience-details">
+                            <div class="experience-card">
+                                <div class="experience-header">
+                                    <h3>Freelance Developer</h3>
+                                    <span class="company">Various Clients</span>
+                                    <span class="duration">2023 - 2024</span>
+                                </div>
+                                <div class="experience-description">
+                                    <p>Worked on diverse freelance projects, delivering custom web and mobile solutions for small businesses and startups.</p>
+                                    <ul class="experience-highlights">
+                                        <li>Developed responsive websites for dental clinics and businesses</li>
+                                        <li>Created mobile-first web applications with modern UI/UX</li>
+                                        <li>Implemented SEO best practices for improved online visibility</li>
+                                        <li>Managed client communications and project timelines</li>
+                                        <li>Delivered projects on time and within budget</li>
+                                    </ul>
+                                </div>
+                                <div class="experience-tech">
+                                    <span>HTML/CSS</span>
+                                    <span>JavaScript</span>
+                                    <span>React</span>
+                                    <span>Node.js</span>
+                                    <span>Responsive Design</span>
+                                    <span>Client Management</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
-                <a href="https://drive.google.com/file/d/1TxfZXSW6es8qWOnOZmqKOK51_cboaVi5/view?usp=sharing" class="btn primary-btn" target="_blank" id="download-resume">Download Resume <i class="fas fa-download"></i></a>
             </div>
         </div>
     </section>
 
     <!-- Skills Section -->
     <section id="skills" class="skills">
-        <div class="section-header">
-            <h2>My <span>Skills</span></h2>
-            <div class="ninja-stars">
-                <span class="ninja-star">✦</span>
-                <span class="ninja-star">✦</span>
-                <span class="ninja-star">✦</span>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Technologies and tools I work with</p>
             </div>
-        </div>
-        <div class="skills-content">
-            <div class="skill-category">
-                <h3>Android Development</h3>
-                <div class="skills-grid">
-                    <div class="skill">
-                        <i class="fab fa-android"></i>
-                        <h4>Android SDK</h4>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 90%;"></div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>Mobile Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-android"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Android SDK</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                                <span class="skill-percent">90%</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="skill">
-                        <i class="fab fa-java"></i>
-                        <h4>Java</h4>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 85%;"></div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Kotlin</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                                <span class="skill-percent">90%</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="skill">
-                        <i class="fas fa-code"></i>
-                        <h4>Kotlin</h4>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 90%;"></div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Java</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                                <span class="skill-percent">85%</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="skill">
-                        <i class="fas fa-paint-brush"></i>
-                        <h4>XML</h4>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 85%;"></div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Jetpack Compose</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80"></div>
+                                </div>
+                                <span class="skill-percent">80%</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="skill">
-                        <i class="fas fa-laptop-code"></i>
-                        <h4>Jetpack Compose</h4>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 80%;"></div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Firebase</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="75"></div>
+                                </div>
+                                <span class="skill-percent">75%</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="skill">
-                        <i class="fas fa-database"></i>
-                        <h4>Firebase</h4>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 75%;"></div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>XML</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                                <span class="skill-percent">85%</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="skill-category">
-                <h3>Web Development</h3>
-                <div class="skills-grid">
-                    <div class="skill">
-                        <i class="fab fa-html5"></i>
-                        <h4>HTML5</h4>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 95%;"></div>
+                
+                <div class="skills-category">
+                    <h3>Web Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>HTML5</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="95"></div>
+                                </div>
+                                <span class="skill-percent">95%</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="skill">
-                        <i class="fab fa-css3-alt"></i>
-                        <h4>CSS3</h4>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 85%;"></div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>CSS3</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                                <span class="skill-percent">85%</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="skill">
-                        <i class="fab fa-js-square"></i>
-                        <h4>JavaScript</h4>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 80%;"></div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>JavaScript</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80"></div>
+                                </div>
+                                <span class="skill-percent">80%</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="skill">
-                        <i class="fab fa-react"></i>
-                        <h4>React</h4>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 75%;"></div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>React</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="75"></div>
+                                </div>
+                                <span class="skill-percent">75%</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="skill">
-                        <i class="fab fa-node-js"></i>
-                        <h4>Node.js</h4>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 70%;"></div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Node.js</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="70"></div>
+                                </div>
+                                <span class="skill-percent">70%</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="skill">
-                        <i class="fas fa-database"></i>
-                        <h4>MongoDB</h4>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 75%;"></div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>MongoDB</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="75"></div>
+                                </div>
+                                <span class="skill-percent">75%</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -215,194 +410,387 @@
 
     <!-- Projects Section -->
     <section id="projects" class="projects">
-        <div class="section-header">
-            <h2>My <span>Projects</span></h2>
-            <div class="ninja-stars">
-                <span class="ninja-star">✦</span>
-                <span class="ninja-star">✦</span>
-                <span class="ninja-star">✦</span>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A showcase of my recent work and contributions</p>
             </div>
-        </div>
-        <div class="projects-grid">
-            <div class="project-card">
-                <div class="project-info">
-                    <h3>Portfolio Website</h3>
-                    <p>A self-designed portfolio website with ninja theme showcasing my skills and projects.</p>
-                    <div class="project-tags">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
+            
+            <div class="project-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="android">Android</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="freelance">Freelance</button>
+            </div>
+            
+            <div class="projects-grid">
+                
+                <!-- Portfolio Website -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=Portfolio+Website" alt="Portfolio Website">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/Subhash6102003" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="project-links">
-                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
-                        <a href="https://github.com/Subhash6102003" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    <div class="project-content">
+                        <h3>Professional Portfolio Website</h3>
+                        <p>A modern, responsive portfolio website showcasing my skills and projects with clean design and smooth animations.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="project-card">                <div class="project-info">
-                    <h3>Food Delivery Website</h3>
-                    <p>A MERN stack food delivery platform with user authentication, order management and tracking features.</p>
-                    <div class="project-tags">
-                        <span>React</span>
-                        <span>Node.js</span>
-                        <span>MongoDB</span>
-                        <span>Express</span>
+
+                <!-- AI Resume Builder -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=AI+Resume+Builder" alt="AI Resume Builder">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Subhash6102003/PromptCV.ai" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/Subhash6102003/PromptCV.ai" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="project-links">
-                        <a href="https://subhash6102003.github.io/Food-Delivery-Website-with-Shared-Backend/website/" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
-                        <a href="https://github.com/Subhash6102003" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-                    </div>
-                </div>
-            </div>
-            <div class="project-card">                <div class="project-info">
-                    <h3>Restaurant Dashboard</h3>
-                    <p>A MERN stack admin dashboard for restaurants to manage orders, inventory, and analytics.</p>
-                    <div class="project-tags">
-                        <span>React</span>
-                        <span>Node.js</span>
-                        <span>MongoDB</span>
-                        <span>Express</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://subhash6102003.github.io/FoodRunner---Restaurant-Dashboard-website/" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
-                        <a href="https://github.com/Subhash6102003/FoodRunner-Restaurant-Dashboard" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    <div class="project-content">
+                        <h3>PromptCV AI - Resume Builder</h3>
+                        <p>An AI-powered resume builder that automatically syncs with LinkedIn and GitHub profiles to create professional resumes with intelligent content generation.</p>
+                        <div class="project-tech">
+                            <span>AI</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>API Integration</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="project-card">                <div class="project-info">
-                    <h3>Food Delivery App</h3>
-                    <p>A Kotlin-based Android app for food ordering with real-time tracking and push notifications.</p>
-                    <div class="project-tags">
-                        <span>Kotlin</span>
-                        <span>Android</span>
-                        <span>Firebase</span>
-                        <span>MVVM</span>
+
+                <!-- AI Content Generator -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=AI+Content+Generator" alt="AI Content Generator">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Subhash6102003/AI-Content-Generator" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/Subhash6102003/AI-Content-Generator" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="project-links">
-                        <a href="https://github.com/Subhash6102003/Food-Delivery-App" target="_blank"><i class="fas fa-external-link-alt"></i> Download</a>
-                        <a href="https://github.com/Subhash6102003/Food-Delivery-App" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-                    </div>
-                </div>
-            </div>
-            <div class="project-card">                <div class="project-info">
-                    <h3>Restaurant Dashboard App</h3>
-                    <p>A companion Kotlin app for restaurant owners to manage orders, inventory and analytics on-the-go.</p>
-                    <div class="project-tags">
-                        <span>Kotlin</span>
-                        <span>Jetpack Compose</span>
-                        <span>Firebase</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/Subhash6102003/FoodRunner-Restaurant-Dashboard" target="_blank"><i class="fas fa-external-link-alt"></i> Download</a>
-                        <a href="https://github.com/Subhash6102003/FoodRunner-Restaurant-Dashboard" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    <div class="project-content">
+                        <h3>AI Content Generator</h3>
+                        <p>A modern, responsive React application that generates professional content using AI. Create blog posts, job descriptions, and email templates.</p>
+                        <div class="project-tech">
+                            <span>AI</span>
+                            <span>React</span>
+                            <span>Content Generation</span>
+                            <span>Responsive</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="project-card">                <div class="project-info">
-                    <h3>RKM Developments</h3>
-                    <p>A startup website offering custom software development services with portfolio and service catalog.</p>
-                    <div class="project-tags">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                        <span>Bootstrap</span>
+
+                <!-- Namaste Stays -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=Namaste+Stays" alt="Namaste Stays">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Subhash6102003/Namaste-Stays" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/Subhash6102003/Namaste-Stays" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="project-links">
-                        <a href="https://rkm-development-subhash6102003s-projects.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
-                        <a href="https://github.com/Subhash6102003" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    <div class="project-content">
+                        <h3>Namaste Stays - Hosting Platform</h3>
+                        <p>A complete end-to-end hosting platform inspired by Airbnb, specifically designed for Indian heritage properties with authentic cultural theming.</p>
+                        <div class="project-tech">
+                            <span>Full Stack</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
                     </div>
                 </div>
+
+                <!-- Stealth Vault -->
+                <div class="project-card" data-category="android">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=Stealth+Vault" alt="Stealth Vault">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Subhash6102003/Stealth-Vault---Privacy-App-Manager" target="_blank" class="project-link">
+                                    <i class="fas fa-download"></i>
+                                </a>
+                                <a href="https://github.com/Subhash6102003/Stealth-Vault---Privacy-App-Manager" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Stealth Vault - Privacy App Manager</h3>
+                        <p>A sophisticated Android application that allows users to hide selected apps from their home screen and access them through custom gesture patterns.</p>
+                        <div class="project-tech">
+                            <span>Android</span>
+                            <span>Kotlin</span>
+                            <span>Privacy</span>
+                            <span>Security</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Food Delivery Website -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=Food+Delivery" alt="Food Delivery">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://subhash6102003.github.io/Food-Delivery-Website-with-Shared-Backend/website/" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/Subhash6102003" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Food Delivery Platform</h3>
+                        <p>A full-stack MERN application for food delivery with user authentication, order management, and real-time tracking features.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Express</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Freelance Projects -->
+                <!-- Aesthetica Dento Facial -->
+                <div class="project-card" data-category="freelance">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=Dental+Clinic+Website" alt="Aesthetica Dento Facial">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://subhash6102003.github.io/-Aesthetica-Dento-Facial-Clinic-Website/" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/Subhash6102003" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Aesthetica Dento Facial Clinic</h3>
+                        <p>A modern, responsive website for Aesthetica Dento Facial Clinic featuring clean design and comprehensive service information.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Responsive</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kicking Ninja -->
+                <div class="project-card" data-category="freelance">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=Martial+Arts+Academy" alt="Kicking Ninja">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://subhash6102003.github.io/Kicking-Ninja/" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/Subhash6102003" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Kicking Ninja - Martial Arts Academy</h3>
+                        <p>A premium martial arts academy website featuring world record holder instructors Saurabh Kushwaha and Anmol Sarkar.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Premium</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gayatri Mobile -->
+                <div class="project-card" data-category="freelance">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=Mobile+Repair+Shop" alt="Gayatri Mobile">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://subhash6102003.github.io/Gayatri-Mobile/" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/Subhash6102003" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Gayatri Mobile</h3>
+                        <p>A modern, responsive React website for Gayatri Mobile, a mobile repair and accessory shop in Narmadapuram, M.P.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Responsive</span>
+                            <span>Business</span>
+                            <span>E-commerce</span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
-        <div class="section-header">
-            <h2>Contact <span>Me</span></h2>
-            <div class="ninja-stars">
-                <span class="ninja-star">✦</span>
-                <span class="ninja-star">✦</span>
-                <span class="ninja-star">✦</span>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together on your next project</p>
             </div>
-        </div>
-        <div class="contact-content">
-            <div class="contact-info">
-                <div class="contact-card">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <h3>Address</h3>
-                    <p>Bhopal, Madhya Pradesh, India</p>
-                </div>
-                <div class="contact-card">
-                    <i class="fas fa-phone"></i>
-                    <h3>Phone</h3>
-                    <p><a href="tel:6386145186">6386145186</a></p>
-                </div>
-                <div class="contact-card">
-                    <i class="fas fa-envelope"></i>
-                    <h3>Email</h3>
-                    <p><a href="mailto:your-email@example.com">subhashmaurya6102003@gmail.com</a></p>
-                </div>
-                <div class="contact-card">
-                    <i class="fas fa-globe"></i>
-                    <h3>Social</h3>
-                    <div class="social-links">
-                        <a href="https://www.linkedin.com/in/subhash-maurya-656905243/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/Subhash6102003" target="_blank"><i class="fab fa-github"></i></a>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Bhopal, Madhya Pradesh, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p><a href="tel:+916386145186">+91 6386145186</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p><a href="mailto:subhashmaurya6102003@gmail.com">subhashmaurya6102003@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <h3>Follow Me</h3>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/subhash-maurya-656905243/" target="_blank" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/Subhash6102003" target="_blank" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="contact-form-container">
-                <form class="contact-form">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name"  required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email"  required>
-                    </div>
-                    <div class="form-group">
-                        <label for="subject">Subject</label>
-                        <input type="text" id="subject" name="subject"  required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" ></textarea>
-                    </div>
-                    <button type="submit" class="btn primary-btn">
-                        Send Message <i class="fas fa-paper-plane"></i>
-                    </button>
-                </form>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <div class="footer-logo">
-                <h2>SUBHASH<span>MAURYA</span></h2>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Subhash Maurya</h3>
+                    <p>Software Developer passionate about creating innovative solutions</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/subhash-maurya-656905243/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Subhash6102003" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:subhashmaurya6102003@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
             </div>
-            <p>© 2025 Subhash Maurya. All Rights Reserved.</p>
-            <div class="footer-social">
-                <a href="https://www.linkedin.com/in/subhash-maurya-656905243/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/Subhash6102003" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="mailto:your-email@example.com"><i class="fas fa-envelope"></i></a>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Subhash Maurya. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
     <!-- Back to Top Button -->
-    <a href="#home" class="back-to-top">
+    <button id="back-to-top" class="back-to-top">
         <i class="fas fa-chevron-up"></i>
-    </a>
+    </button>
 
     <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
